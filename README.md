@@ -13,7 +13,7 @@ sdk开发中常用到
 
 ImageLoader.display(String imageUrl, ImageView imageView);
 
-ImageLoader.display(String imageUrl, ImageView imageView, int width, int height);加载指定宽高
+ImageLoader.display(String imageUrl, ImageView imageView, int width, int height);//加载指定宽高
 
 ImageLoader.display(String imageUrl, ImageView imageView, OnDisplayListener callback);//添加回调
 
