@@ -17,4 +17,4 @@ ImageLoader.display(String imageUrl, ImageView imageView, int width, int height)
 
 ImageLoader.display(String imageUrl, ImageView imageView, OnDisplayListener callback);//添加回调
 
-ImageLoader.display(String imageUrl, final ImageView imageView, int width, int height, final OnDisplayListener callback);//加载指定宽高和添加回调
+ImageLoader.display(String imageUrl, ImageView imageView, int width, int height, OnDisplayListener callback);//加载指定宽高和添加回调
