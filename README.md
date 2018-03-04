@@ -5,7 +5,7 @@
 sdk开发中常用到
 
 #### 使用方法：
-1.在applicaion中初始化  ImageLoader.initCacheDir(Context context, String baseDir,DisplayOptions options);
+1.在applicaion中初始化  ImageLoader.init(Context context, String baseDir,DisplayOptions options);
 
   在application的onTerminate 方法中释放资源 ImageLoader.release();
 

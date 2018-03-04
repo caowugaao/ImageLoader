@@ -18,7 +18,7 @@ public class App extends Application {
         DisplayOptions options=new DisplayOptions();
         options.placeholderResId=R.mipmap.ic_launcher;
         options.failResId=R.mipmap.ic_load_fail;
-        ImageLoader.initCacheDir(this,null,options);
+        ImageLoader.init(this,null,options);
     }
 
     @Override

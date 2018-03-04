@@ -29,7 +29,7 @@ public class ImageLoader {
      *            最大占用内存
      * @param options
      */
-    public static void initCacheDir(Context context, String baseDir, int cacheMemory,DisplayOptions options) {
+    public static void init(Context context, String baseDir, int cacheMemory, DisplayOptions options) {
         RealImageLoader.initCacheDir(context, baseDir, cacheMemory);
         defaultDisplayOptions=options;
     }
@@ -42,7 +42,7 @@ public class ImageLoader {
      *            为null则默认存放在context.getCacheDir()+images目录
      *  @param options
      */
-    public static void initCacheDir(Context context, String baseDir,DisplayOptions options) {
+    public static void init(Context context, String baseDir, DisplayOptions options) {
         RealImageLoader.initCacheDir(context, baseDir);
         defaultDisplayOptions=options;
     }
